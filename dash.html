@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="dash.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://www.cubematch-claritaz.com/"> claritaz.com </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Registration</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact Us</a></li>
+
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-collapse -->
+    </nav>
+    <!------------- MAIN PAGE CONTENT AREA --------->
+
+
+
+
+    <div class="site-panel" style="margin-top:110px">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 well">
+                    <div class="sidebar">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item active">Dashboard</a>
+                            <a href="#" class="list-group-item">My Profile</a>
+                            <a href="#" class="list-group-item">Orders</a>
+                            <a href="#" class="list-group-item">Analytics</a>
+                            <a href="#" class="list-group-item">settings</a>
+                            <a href="#" class="list-group-item">History</a>
+                            <a href="#" class="list-group-item">Edit</a>
+                            <a href="#" class="list-group-item">Logout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<form  class="form" onsubmit="event.preventDefault(); onformsubmit();" autocomplete="off">
+    <div class="Name">
+        <label for="name">Name</label><br>
+        <input type="text" class="nm" placeholder="    name" id="name">
+    </div>
+    <div class="Username">
+        <label for="uname">Username</label><br>
+        <input type="text" class="nme" placeholder="    username" id="uname">
+    </div>
+    <div class="Emailid">
+        <label for="email">email Id</label><br>
+        <input type="text" class="email" placeholder="    email" id="email">
+    </div>
+    <div class="Phone No">
+        <label for="name">Mobile no</label><br>
+        <input type="text" class="num" placeholder="    number" id="num">
+    </div>
+    <div class="btn11">
+        <input  class="btn btn-danger" type="submit">
+
+    </div>
+</form>
+
+    <!-- <div class="search">
+        <input type="text" onkeyup="myFunction()" class="input" id="input1" placeholder="search">
+    </div> -->
+
+
+
+
+    <div class="container1" id="container1">
+        <div class="table" id="table">
+            <table class="table1 table-bordered " id="tbl">
+                <thead class="" id="head">
+                    <tr>
+                        <th>User ID</th>
+                        <th>Name</th>
+                        <th>Username</th>
+                        <th>Email</th>
+                        <th>Street</th>
+                        <th>Suite</th>
+                        <th>City</th>
+                        <th>Zip code</th>
+                        <th>Geo lat</th>
+                        <th>geo ing</th>
+                        <th>Phone No</th>
+                        <th>Website</th>
+                        <th>Company Name</th>
+                        <th>Company catchparse</th>
+                        <th>Action</th>
+                    </tr>
+                <tbody class="px-5" id="tablecontent"></tbody>
+                </thead>
+            </table>
+        </div>
+
+    </div>
+<script src="dash.js"></script>
+</body>
+
+</html>

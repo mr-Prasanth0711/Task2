@@ -1,0 +1,26 @@
+<div class="container" id="container">
+        <div class="table" id="table">
+            <table class="table1 table-bordered" id="tbl">
+                <thead class="" id="head">
+                    <tr>
+                        <th>User ID</th>
+                        <th>Name</th>
+                        <th>Username</th>
+                        <th>Email</th>
+                        <th>Street</th>
+                        <th>Suite</th>
+                        <th>City</th>
+                        <th>Geo lat</th>
+                        <th>geo ing</th>
+                        <th>Phone No</th>
+                        <th>Website</th>
+                        <th>Company Name</th>
+                        <th>Company catchparse</th>
+                        <th>BS</th>
+                    </tr>
+                <tbody id="tablecontent"></tbody>
+                </thead>
+            </table>
+        </div>
+
+    </div>
